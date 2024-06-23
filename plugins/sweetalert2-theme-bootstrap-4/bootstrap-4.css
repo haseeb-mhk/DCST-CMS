@@ -1,0 +1,54 @@
+/*
+Error: File to import not found or unreadable: ~sweetalert2/src/variables.
+       Load paths:
+         D:/Dreamweaver/Adobe Dreamweaver 2021/Configuration/SassFrameworks/bourbon
+         D:/Dreamweaver/Adobe Dreamweaver 2021/Configuration/SassFrameworks/neat
+         D:/Dreamweaver/Adobe Dreamweaver 2021/Configuration/SassFrameworks/base
+        on line 1 of D:\xammp\htdocs\dcst_lms\plugins\sweetalert2-theme-bootstrap-4\bootstrap-4.scss
+
+1: @import '~sweetalert2/src/variables';
+2: 
+3: // Function
+4: @function str-replace($string, $search, $replace: '') {
+5:   $index: str-index($string, $search);
+6: 
+
+Backtrace:
+D:\xammp\htdocs\dcst_lms\plugins\sweetalert2-theme-bootstrap-4\bootstrap-4.scss:1
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:20:in `render'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/engine.rb:290:in `render'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:396:in `run'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/2.7.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/bin/sass:23:in `load'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: ~sweetalert2/src/variables.\A        Load paths:\A          D:/Dreamweaver/Adobe Dreamweaver 2021/Configuration/SassFrameworks/bourbon\A          D:/Dreamweaver/Adobe Dreamweaver 2021/Configuration/SassFrameworks/neat\A          D:/Dreamweaver/Adobe Dreamweaver 2021/Configuration/SassFrameworks/base\A         on line 1 of D:\xammp\htdocs\dcst_lms\plugins\sweetalert2-theme-bootstrap-4\bootstrap-4.scss\A \A 1: @import '~sweetalert2/src/variables';\A 2: \A 3: // Function\A 4: @function str-replace($string, $search, $replace: '') {\A 5:   $index: str-index($string, $search);\A 6: "; }
